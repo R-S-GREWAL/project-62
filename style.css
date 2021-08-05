@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Montez|Sofia');
+
+
+img {
+    width: 650px;
+    border: #283593 groove 15px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Sofia', cursive;
+
+    background: linear-gradient(#00CED1 0%, #2ECC71 100%);
+}
+
+p {
+    max-width: 700px;
+    margin: 25px auto;
+    font-family: 'Sofia', cursive;
+    font-size: 25px;
+    font-weight: 200px;
+    padding: 30px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Sofia', cursive;
+    position: fixed;
+    top: 5px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.links {
+    float: left;
+    color: darkblue;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    font-family: 'Sofia', cursive;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: white;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px #2ECC71;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 35px;
+}
+
+h5 {
+    font-size: 35px;
+}
+
+h6 {
+    font-size: 35px;
+}
+
+h7 {
+    font-size: 35px;
+}
+
+h8 {
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.article:hover {
+    color: fuchsia;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.line {
+    height: 7px;
+    background-color: darkblue;
+    width: 120px;
+    margin: 15px auto;
+}
+    
+    img {
+    transition: transform .2s;
+}
+img:hover {
+    transform:scale(0.9);
+}
+
+#SikhGurus {
+    width: 20px;
+    height: 20px; 
+    text-align: center; 
+    left: 80px;
+    right: 90px;
+}
